@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">aplikasiBerita</string>
+    <string name="api_key">d5f1b6ab330140dc89dc2be72659e5ce</string>
+    <string name="btn_1">general</string>
+    <string name="btn_2">business</string>
+    <string name="btn_3">science</string>
+    <string name="btn_4">technology</string>
 </resources>
