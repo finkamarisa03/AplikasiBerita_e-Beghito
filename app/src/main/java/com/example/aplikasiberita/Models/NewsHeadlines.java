@@ -2,8 +2,6 @@ package com.example.aplikasiberita.Models;
 
 import java.io.Serializable;
 
-import javax.xml.transform.Source;
-
 public class NewsHeadlines implements Serializable {
     Source source = null;
     String author = "";
@@ -78,4 +76,3 @@ public class NewsHeadlines implements Serializable {
         this.content = content;
     }
 }
-

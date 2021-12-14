@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.e_beghito2.Models.NewsHeadlines;
+import com.example.aplikasiberita.Models.NewsHeadlines;
 import com.squareup.picasso.Picasso;
 
 public class DetailsActivity extends AppCompatActivity {
