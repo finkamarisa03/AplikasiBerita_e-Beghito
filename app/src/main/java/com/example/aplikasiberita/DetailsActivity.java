@@ -17,6 +17,7 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_AplikasiBerita);
         setContentView(R.layout.activity_details);
 
         headlines = (NewsHeadlines) getIntent().getSerializableExtra("data");

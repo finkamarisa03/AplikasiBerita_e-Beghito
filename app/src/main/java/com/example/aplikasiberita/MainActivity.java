@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_AplikasiBerita);
         setContentView(R.layout.activity_main);
+
 
         dialog = new ProgressDialog(this);
         dialog.setTitle("Mengambil Berita");
